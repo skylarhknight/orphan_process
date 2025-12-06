@@ -45,15 +45,25 @@ and guide its evolution from a simple Bit-Larva into a digital Singularity.
    [5] LOAD: Restores the game from 'savegame.txt'.
    [6] QUIT: Safely terminates the session.
 
-## Compilation Instructions
-The project includes a Makefile that handles the static library generation and 
-the main executable linking.
+## Installation & Compilation
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/orphan_process.git](https://github.com/YOUR_USERNAME/orphan_process.git)
+    cd orphan_process
+    ```
 
-To Build:
+2.  **Compile the project:**
+    This will build the static library `libterminal.a` and link it to the main executable.
+    ```bash
     make
+    ```
 
-To Run:
+3.  **Run the simulation:**
+    ```bash
     ./orphan_process
+    ```
 
-To Clean (Remove .o files and executable):
+4.  **Clean up build files:**
+    ```bash
     make clean
+    ```
