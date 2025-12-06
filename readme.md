@@ -49,7 +49,6 @@ and guide its evolution from a simple Bit-Larva into a digital Singularity.
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/skylarhknight/orphan_process.git
-    cd orphan_process
     ```
 
 2.  **Compile the project:**
